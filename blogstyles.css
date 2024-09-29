@@ -1,0 +1,356 @@
+body {
+  font-family: sans-serif;
+  padding-top: 90px;
+}
+.header {
+  position: fixed;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(95, 95, 95);
+  height: 90px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.div5 img {
+  width: 200px;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .div5 img {
+    width: 120px;
+  }
+  a {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .div5 img {
+    width: 150px;
+  }
+  a {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px grey solid;
+  vertical-align: middle;
+  margin-bottom: 7rem;
+}
+.jo {
+  width: 990px;
+  height: 470px;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .jo {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .jo {
+    width: 630px;
+    height: 290px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  .jo {
+    width: 840px;
+    height: 370px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  
+}
+.bc {
+  color: rgb(248, 73, 73);
+}
+.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin-bottom: 2rem;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.jo1 {
+  width: 495px;
+  height: 235px;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .jo1 {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .jo1 {
+    width: 290px;
+    height: 190px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  .jo1 {
+    width: 390px;
+    height: 220px;
+  }
+}
+.butload {
+  background-color: white;
+  color: rgb(68, 68, 68);
+  border: 1px solid rgb(248, 73, 73);
+  padding: 14px 10px 14px 10px;
+  width: fit-content;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+}
+.butload:hover {
+  color: white;
+  background-color: rgb(248, 73, 73);
+}
+.yellow {
+  background-color: rgb(233, 178, 0);
+  margin-top: 1rem;
+  padding: 3px;
+  display: grid;
+  grid-template-areas: 'head head' 'food style' 'travel motherhood' 'design 0';
+  column-gap: 10px;
+  row-gap: 18px;
+  margin-bottom: 4rem;
+}
+.head {
+  grid-area: head;
+  border-bottom: 1px black solid;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(44, 44, 44);
+  font-size: 24px;
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
+.food {
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  grid-area: food;
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}
+.style {
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  grid-area: style;
+}
+.travel {
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  grid-area: travel;
+  border-right: 1px solid black;
+  padding-right: 1rem;
+}
+.motherhood {
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  grid-area: motherhood;
+}
+.design {
+  text-align: center;
+  vertical-align: middle;
+  white-space: wrap;
+  grid-area: design;
+}
+.pone {
+  font-size: 12px;
+  color: rgb(44, 44, 44);
+}
+.ptwo {
+  font-size: 20px;
+}
+.one {
+  font-size: 13px;
+}
+.two {
+  font-size: 24px;
+}
+.two:hover {
+  color: rgb(248, 73, 73);
+}
+.fr {
+  font-size: 12px;
+}
+.third {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  vertical-align: middle;
+  white-space: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+@media screen AND (min-width: 400px) and (max-width: 700px) {
+  .third {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1107px) {
+  .third {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.jo3 {
+  width: 340px;
+  height: 400px;
+}
+.fourth {
+  margin-top: 1rem;
+  background-color: rgb(255, 186, 154);
+  display: grid;
+  grid-template-areas: "title title title title title" "book1 book2 book3 book4 book5";
+  vertical-align: middle;
+  column-gap: 3rem;
+  text-align: center;
+  white-space: wrap;
+  /* height: 500px; */
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .fourth {
+    grid-template-areas: "title title" "book1 book2";
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .fourth {
+    grid-template-areas: "title title title" "book1 book2 book3";
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  .fourth {
+    grid-template-areas: "title title title title" "book1 book2 book3 book4";
+  }
+}
+@media screen and (min-width: 1201px) {
+  .fourth {
+    grid-template-areas: "title title title title title" "book1 book2 book3 book4 book5";
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.title {
+  font-size: 24px;
+  grid-area: title;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.fb {
+  width: 200px;
+  height: 200px;
+  white-space: wrap;
+  margin-bottom: 7rem;
+}
+.jo4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+}
+.book1 {
+  grid-area: book1;
+}
+.book2 {
+  grid-area: book2;
+}
+.book3 {
+  grid-area: book3;
+}
+.book4 {
+  grid-area: book4;
+}
+.book5 {
+  grid-area: book5;
+}
+.new {
+  font-size: 20px;
+  color: black;
+}
+.fifth {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(5, 5, 199);
+  color: white;
+  display: grid;
+  grid-template-areas: "feel feel feel" "ink ink ink" "rice seat tie";
+  height: 550px;
+  grid-template-columns: 1fr 1fr 1fr;
+  vertical-align: middle;
+  column-gap: 3rem;
+  text-align: center;
+  white-space: wrap;
+}
+.feel {
+ grid-area: feel;
+ font-size: 24px;
+ margin-top: 2rem;
+ padding: 0 2rem 0 2rem;
+}
+.ink {
+  white-space: wrap;
+  grid-area: ink;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid white;
+  margin: 1rem 6rem 0 6rem;
+}
+.feel, .ink {
+  vertical-align: middle;
+ text-align: center;
+}
+.seat {
+  grid-area: seat;
+}
+.rice {
+  grid-area: rice;
+}
+.tie {
+  grid-area: tie;
+}
+.seat, .tie, .rice {
+  margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  
+}
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  
+}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  
+}
+@media screen and (min-width: 1201px) {
+  
+}
